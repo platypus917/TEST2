@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  background: #00d6ab;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  padding-bottom: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #00c39c;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 157, 126, 0.7);
+          box-shadow: 0 3px 5px rgba(0, 157, 126, 0.7);
+}
+.header .logo {
+  width: 150px;
+}
+.header .logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.header .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1440px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .pages a {
+  margin: 40px;
+  margin-bottom: 0;
+  font-size: 35px;
+  display: block;
+  padding: 5px;
+  width: 25%;
+  text-align: center;
+}
+.header .pages a:hover {
+  background: #fff;
+  color: #00c39c;
+  border-radius: 30px 30px 0 0;
+}
+.header .media {
+  margin-right: 40px;
+}
+.header .media a {
+  padding: 10px;
+}
+
+.content {
+  width: 1440px;
+  background: #ffe0ab;
+  margin: 5px auto;
+  height: 75vh;
+  border-radius: 20px;
+  padding: 20px;
+}
+.content .container {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content .container table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  height: 95%;
+}
+.content .container table tr:nth-child(odd) {
+  background: #00d6ab;
+}
+.content .container table tr:nth-child(even) {
+  background: #fff;
+}
+.content .container table th {
+  font-size: 30px;
+  font-weight: 700;
+}
+.content .container table th::before {
+  content: "<";
+  padding: 5px;
+}
+.content .container table th::after {
+  content: ">";
+  padding: 5px;
+}
+.content .container table td {
+  padding: 5px;
+}
+.content .container table th, .content .container table tr, .content .container table td {
+  border: 1px solid #000;
+}
+.content .container .input {
+  background: rgba(202, 178, 138, 0.6);
+  margin: 10px;
+  margin-left: 50px;
+  padding: 20px;
+  width: 40%;
+  height: 50%;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content .container .input h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.content .container .input form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content .container .input form input {
+  margin: 10px;
+  height: 35px;
+  padding: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+.content .container .input form #submit {
+  background: #c4a672;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 5px;
+}/*# sourceMappingURL=reservation.css.map */

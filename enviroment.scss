@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    background: #00d6ab;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: #00c39c;
+    box-shadow: 0 3px 5px rgba(0,157,126,.7);
+
+    .logo {
+        width: 150px;
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .pages {
+        display: flex;
+        width: 1440px;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            margin: 40px;
+            margin-bottom: 0;
+            font-size: 35px;
+            display: block;
+            padding: 5px;
+            width: 25%;
+            text-align: center;
+
+            &:hover {
+                background: #fff;
+                color: #00c39c;
+                border-radius: 30px 30px 0 0;
+            }
+        }
+    }
+
+    .media {
+        margin-right: 40px;
+        a {
+            padding: 10px;
+        }
+    }
+}
+
+.content {
+    width: 1440px;
+    background: #ffe0ab;
+    margin: 5px auto;
+    border-radius: 20px;
+
+    .container {
+        padding: 20px;
+        position: relative;
+
+        .pic1 {
+            float: right;
+            width: 500px;
+            margin: 10px;
+        }
+
+        .pic2 {
+            float: left;
+            width: 600px;
+            margin: 10px;
+        }
+
+        p {
+            font-size: 23px;
+            line-height: 1.6;
+        }
+
+        .adress {
+            display: flex;
+            width: 500px;
+            margin: 20px;
+            padding: 20px;
+            background: rgba(188, 182, 141, 0.3);
+            border-radius: 15px;
+
+            li {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .top {
+        position: fixed;
+        right: 100px;
+        bottom: 100px;
+
+        a {
+            border: 3px solid #fff;
+            padding: 10px;
+            font-size: 25px;
+            border-radius: 10px;
+
+            &:hover {
+                background: #fff;
+                color: #00c39c;
+            }
+        }
+    }
+}
